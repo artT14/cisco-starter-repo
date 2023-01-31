@@ -1,14 +1,13 @@
 import './App.css';
 import Banner from './components/Banner';
-import Card from './components/Card';
+import PublicIP from './components/PublicIP';
 
 function App() {
   return (
     <div className="App">
       <Banner title="Sextant"/>
-      <Card heading="Test">
-        <p>Test</p>
-      </Card>
+      <PublicIP ipV6={false}/>
+      <PublicIP ipV6={true}/>
     </div>
   );
 }
