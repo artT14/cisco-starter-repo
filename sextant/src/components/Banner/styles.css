@@ -1,13 +1,20 @@
 .banner-container{
-    box-sizing: content-box;
     background-color: #049FD9;
-    display: block;
     overflow: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
 }
 
 .banner{
+    display: inline-block;
     box-sizing: border-box;
     color: #FFF;
     font-weight: bold;
-    padding-left: 1em;
+    margin-left: 1em;
+}
+
+.banner-logo{
+    display: inline-block;
+    height: 50px;
 }
