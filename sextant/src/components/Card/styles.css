@@ -1,0 +1,11 @@
+.card-container{
+    display: inline-block;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.card-heading{
+    font-weight: bold;
+}
